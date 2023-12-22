@@ -1,0 +1,56 @@
+body{
+    background-color: red;
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: "I love css class";
+}
+
+@media (max-width:400px) {
+    /*
+    if viewport is atmax 400px then this style will apply
+    */
+    body{
+        background-color: white;
+    }
+    div::after{
+        content: "very small screen!!";
+    }
+}
+@media (min-width:400px) and (max-width:768px) {
+    body{
+        background-color: yellowgreen;
+    }
+    div::after{
+        content: "Mid Size Screen!";
+    }
+}
+
+@media (min-width:768px) and (max-width:900px) {
+    /*
+    if viewport is atleast 768px then this style will apply
+    */
+    body{
+        background-color: purple;
+    }
+    div::after{
+        content: "smaller screen!!";
+    }
+}
+
+@media (min-width:900px) {
+    /*
+    if viewport is atleast 900px then this style will apply
+    */
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: "woaahh!! it's working brohter";
+    }
+}

@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: colorchange;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+@keyframes colorchange{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}

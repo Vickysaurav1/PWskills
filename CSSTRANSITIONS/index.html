@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions & Tooltips</title>
+    <style>
+        .trnasitions{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: black;
+            transition: width 2s, height 3s, background-color 2.5s;
+            /* transition-timing-function: ease-out; */
+            transition-delay: 3s;
+        }
+        .trnasitions:hover{
+            width: 200px;
+            height: 500px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- transitions -->
+    <div class="trnasitions"></div>
+    <!-- Tooltip -->
+    <p title="hello anurag">hover me</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*for small devices*/
+@media (max-width:600px) {
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: "This is mobile compatible";
+    }
+}
+/*for large phones devices*/
+@media (min-width:600px) {
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: "This is large mobile compatible";
+    }
+    
+}
+/*for landscape tablates devices*/
+@media (min-width:768px) {
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content: "This is tablet compatible";
+    }
+    
+}
+/*for laptops/desktops devices*/
+@media (min-width:992px) {
+    body{
+        background-color: antiquewhite;
+    }
+    div::after{
+        content: "This is laptop/desktop compatible";
+    }
+    
+}
+/*for large laptops/desktops devices*/
+@media (min-width:1200px) {
+    body{
+        background-color: lawngreen;
+    }
+    div::after{
+        content: "This is large laptop/desktop compatible";
+    }
+    
+}
