@@ -1,0 +1,24 @@
+.box{
+    width:  100px;
+    height: 100px;
+}
+
+.box1{
+background-color: red;
+}
+
+.box2{
+background-color: yellow;
+/* position: fixed;
+bottom: 0;
+right:10px; */
+position: absolute;
+top: 50px;
+left: 110px;
+}
+
+.box3{
+background-color: blue;
+/* position: sticky;
+top: 0; */
+}
